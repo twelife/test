@@ -95,14 +95,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: 
-    repo: blog-comments
+    repo: twelife.github.io
     oauth:
         client_id: 
         client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: twelife
-    repo: blog-comments
+    repo: twelife.github.io
     clientID: d99858c6d410509968c5
     clientSecret: 86c98b2b11fdd78495c7abc1ea2cb046062c4aa8
 # 在使用其它评论组件时可点击显示 Disqus
