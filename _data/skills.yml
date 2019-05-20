@@ -1,6 +1,11 @@
 - name: Web Developer Keywords
   keywords:
       - PHP
+      - MySQL
+      - HTML
+      - CSS
+      - Jquery
+      - BootStrap
 
 - name: Mobile Developer Keywords
   keywords:
