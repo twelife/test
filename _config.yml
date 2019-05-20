@@ -1,0 +1,124 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://twelife.cn
+date_format: "ordinal"
+title: SMILE的微笑
+subtitle: "每一天都是有意义的一天"
+description: "SMILE的微笑博客"
+keywords: smile, 微笑, 博客, php, 技术, 生活
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: SMILE的微笑
+organization: 
+organization_url: 
+github_username: twelife
+location: Hunan, China
+email: twelife@163.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+  -
+    href: /archives/
+    label: 归档
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: twelife/twelife.github.io
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: twelife-smile
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: 
+    repo: blog-comments
+    oauth:
+        client_id: 
+        client_secret: 
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: twelife
+    repo: blog-comments
+    clientID: d99858c6d410509968c5
+    clientSecret: 86c98b2b11fdd78495c7abc1ea2cb046062c4aa8
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-140411322-1
