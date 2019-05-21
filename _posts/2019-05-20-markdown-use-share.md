@@ -11,31 +11,36 @@ keywords: markdown, 基础
 ## 前言
 
 ### 起源
-`Markdown` 由 `John Gruber` 在2004年创建，是一种可以使用普通文本编辑器编写的标记语言，宗旨：**易读**、**易写**
+`Markdown` 由 `John Gruber` 在2004年创建，是一种可以使用普通文本编辑器编写的标记语言，宗旨：**易读**、**易写**  
 
 ### 为什么使用
-因为`Markdown`**易读易写**的特性，相对**轻量**、**简单**、**通用**，并且具有一系列的衍生版本(工具)，用于扩展原初`Markdown`不具备的功能，如：`表格`、`目录`、`脚注`、`内嵌HTML`等等。 对于复杂的内容也有着很好的支持，如：`流程图`、`甘特图`、`科学公式`等等
+因为 `Markdown` **易读易写**的特性，相对**轻量**、**简单**、**通用**，并且具有一系列的衍生版本(工具)，用于扩展原初 `Markdown` 不具备的功能，如： `表格` 、 `目录` 、 `脚注` 、 `内嵌HTML` 等等。 对于复杂的内容也有着很好的支持，如： `流程图` 、 `甘特图` 、 `科学公式` 等等
 
 > 虽然各个扩展的语法和渲染有些不同，但是语法基本兼容。  
 
 ### 储存
 
-储存的格式支持：`*.md`、`*.markdown`、`*.mmd`、`*.mdown`
+储存的格式支持： `*.md` 、 `*.markdown` 、 `*.mmd` 、 `*.mdown`   
 
-导出的格式：`markdown`、`html`
+导出的格式： `markdown` 、 `html` 
 
 ## 使用
 
 ### 常用工具
 
-站点：[editor.md(编辑器)](https://pandao.github.io/editor.md/)、[github](https://github.com)、[gitbook](http://gitbook.com)、 [CSDN](https://www.csdn.net/)、[stackoverflow](http://stackoverflow.com)、[SegmentFault](https://segmentfault.com/)  
-工具：[typora(本地)](https://www.typora.io)、[Cmd Markdown(在线)](https://www.zybuluo.com)、[phpstorm(扩展)](http://www.jetbrains.com/phpstorm/)、[vs code(扩展)](https://code.visualstudio.com/)、[sublime text(扩展)](http://www.sublimetext.com)
+站点：[editor.md(编辑器)](https://pandao.github.io/editor.md/)、[github](https://github.com)、[gitbook](http://gitbook.com)、 [CSDN](https://www.csdn.net/)、[stackoverflow](http://stackoverflow.com)、[SegmentFault](https://segmentfault.com/)   
+
+工具：[typora(本地)](https://www.typora.io)、[Cmd Markdown(在线)](https://www.zybuluo.com)、[phpstorm(扩展)](http://www.jetbrains.com/phpstorm/)、[vs code(扩展)](https://code.visualstudio.com/)、[sublime text(扩展)](http://www.sublimetext.com)  
 
 强烈推荐：[typora(本地)](https://www.typora.io)
 
 ### 常用语法
 
 >  **包括但不仅限于下列语法**
+
+#### 换行
+
+在标准的markdown中，是无法使用回车进行换行，因此如需换行，在行末加入`两个空格符` 或 `<br/>` 符，亦或者敲入一段文字后加入一行或多行空白行。
 
 #### 标题
 
@@ -74,16 +79,6 @@ _斜体_
 
 例子：~~删除线~~
 
-#### 高亮
-
-部分编辑器需要开启扩展
-
-```
-==高亮==
-```
-
-例子：==高亮==
-
 #### 引用文本
 
 ```
@@ -105,18 +100,18 @@ _斜体_
 #### 下浮标注
 
 ```
-H~2~O
+H<sub>2</sub>O
 ```
 
-例子：H~2~O
+例子：H<sub>2</sub>O
 
 #### 上浮标注
 
 ```
-2^10^
+2<sup>10</sup>
 ```
 
-例子：2^10^
+例子：2<sup>10</sup>
 
 #### 插入URL
 
@@ -146,7 +141,7 @@ H~2~O
 #### 插入图片
 
 ```
-![alt title](链接"标题")
+![alt title](链接 "标题")
 ```
 
 例子：
@@ -173,7 +168,7 @@ echo 'hello world';
 
 ```
 - 一条记录
-	- 一条记录
+    - 一条记录
 - emmm
 ```
 
@@ -187,7 +182,7 @@ echo 'hello world';
 
 ```
 1. 这是一条有序列表
-	1.  这是一条有序列表
+    1.  这是一条有序列表
 2. 这是一条有序列表
 ```
 
@@ -252,7 +247,37 @@ echo 'hello world';
 
 例子：<span style="color:red">红色文字</span>
 
+### 扩展
+
+下列扩展使用方式仅在 `typora` 中使用
+
+#### 下浮标注
+
+```
+H~2~O
+```
+
+例子：H~2~O
+
+#### 上浮标注
+
+```
+2^10^
+```
+
+例子：2^10^
+
+#### 高亮
+
+```
+==高亮==
+```
+
+例子：==高亮==
+
 #### 甘特图
+
+属于扩展类，部分编辑器支持
 
 ```
 ​```mermaid
@@ -278,7 +303,7 @@ gantt
 gantt
     dateFormat  YYYY-MM-DD
     title 甘特图标题
-	section 现有任务
+    section 现有任务
         已完成               :done,    des1, 2014-01-06,2014-01-08
         进行中               :active,  des2, 2014-01-09, 3d
         计划一               :         des3, after des2, 5d

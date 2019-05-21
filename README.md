@@ -1,6 +1,8 @@
-# 码志
+# SMILE的微笑
 
-我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
+我的个人博客：<https://twelife.cn>，欢迎 Star 和 Fork。
+
+以下内容源于 [码志](https://mazhuang.org) 的 `README`
 
 ## 概览
 
@@ -9,16 +11,15 @@
 * [效果预览](#效果预览)
 * [Fork 指南](#fork-指南)
 * [贴心提示](#贴心提示)
-* [经验与思考](#经验与思考)
 * [致谢](#致谢)
 
 <!-- vim-markdown-toc -->
 
 ## 效果预览
 
-**[在线预览 &rarr;](https://mazhuang.org)**
+**[在线预览 &rarr;](https://twelife.github.io)**
 
-![screenshot home](https://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](https://twelife.github.io/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -32,13 +33,15 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
    如果你需要绑定自己的域名，那么修改 CNAME 文件的内容；如果不需要绑定自己的域名，那么删掉 CNAME 文件。
 
+   **注意：** 若任然无法访问，请在 仓库 > 设置 中找到 `GitHub Pages`，将 `Custom domain` 清空保存，再重新写入即可。
+
 3. 修改配置。
 
    网站的配置基本都集中在 \_config.yml 文件中，将其中与个人信息相关的部分替换成你自己的，比如网站的 url、title、subtitle 和第三方评论模块的配置等。
 
    **评论模块：** 目前支持 disqus、gitment 和 gitalk，选用其中一种就可以了，推荐使用 gitalk。它们各自的配置指南链接在 \_config.yml 文件的 Comments 一节里都贴出来了。
 
-   **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。我对该缺陷的记录见 [Issues#2][3]。
+   **注意：** 如果使用 disqus，因为 disqus 处理用户名与域名白名单的策略存在缺陷，请一定将 disqus.username 修改成你自己的，否则请将该字段留空。
 
 4. 删除我的文章与图片。
 
@@ -59,24 +62,11 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 2. 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
 
-## 经验与思考
-
-* 简约，尽量每个页面都不展示多余的内容。
-
-* 有时一图抵千言，有时可能只会拖慢网页加载速度。
-
-* 言之有物，不做无痛之呻吟。
-
-* 如果写技术文章，那先将技术原理完全理清了再开始写，一边摸索技术一边组织文章效率较低。
-
-* 杜绝难断句、难理解的长句子，如果不能将其拆分成几个简洁的短句，说明脑中的理解并不清晰。
-
-* 可以学习一下那些高质量的博主，他们的行文，内容组织方式，有什么值得借鉴的地方。
-
 ## 致谢
 
-本博客外观基于 [DONGChuan](https://dongchuan.github.io) 修改，感谢！
+2. 引用 [码志](https://mazhuang.org) 
+
+1. 起源 [DONGChuan](https://dongchuan.github.io)
 
 [1]: https://github.com/mzlogin/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2

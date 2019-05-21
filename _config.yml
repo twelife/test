@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://twelife.cn
+url: twelife.cn
 date_format: "ordinal"
 title: SMILE的微笑
 subtitle: "每一天都是有意义的一天"
@@ -37,9 +37,9 @@ navs:
     href: /archives/
     label: 归档
 
-  -
-    href: /wiki/
-    label: 维基
+  # -
+  #   href: /wiki/
+  #   label: 维基
 
   -
     href: /links/
