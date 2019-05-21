@@ -2,6 +2,10 @@
   name: twelife
   url: https://github.com/twelife
 
-- sitename: 微博
+- sitename: WeiBo
   name: 我就是我-譚偉
   url: https://weibo.com/u/2427003791
+
+- sitename: E-mail
+  name: twelife@163.com
+  url: twelife@163.com

@@ -8,11 +8,9 @@ menu: 关于
 permalink: /about/
 ---
 
-完美从来都不会有100%的
+Nothing is impossible !
 
-不要为了那1%而放弃了99%
-
-## 联系
+## Contacts
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
