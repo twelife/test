@@ -146,7 +146,7 @@ H<sub>2</sub>O
 
 例子：
 
-![Alt title](https://avatar.csdn.net/7/7/B/1_ralf_hx163com.jpg "图片名称")
+![Alt title]({{ site.url }}/assets/images/qrcode.jpg "图片名称")
 
 #### 插入代码
 
