@@ -18,7 +18,9 @@ GraphQL一种用于 API 的查询语言，详情请查阅 [GraphQL中文官网](
 
 插件：[`smilecc/think-graphql`](https://github.com/smilecc/think-graphql)，目前所有 `graphql` 的插件都是基于 [`webonyx/graphql-php`](https://github.com/webonyx/graphql-php) 开发的
 
-浏览器扩展：[`Altair GraphQL Client`](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja)，用于快速请求使用，以下简称 `Altair`
+浏览器扩展：[`Altair GraphQL Client`](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja)，用于快速模拟请求使用，以下简称 `Altair`
+
+> **注：**若是无法进入谷歌应用，请直接在 [Altair GraphQL](https://altair.sirmuel.design/#download) 官网下载客户端使用。
 
 ## 安装配置插件 
 
