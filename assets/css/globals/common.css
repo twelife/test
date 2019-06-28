@@ -438,7 +438,9 @@
 }
 
 .markdown-body .emoji {
-    max-width: none
+    max-width: none;
+    display: inline-block !important;
+    vertical-align: middle;
 }
 
 .markdown-body span.frame {
