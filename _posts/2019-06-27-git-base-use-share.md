@@ -2,7 +2,7 @@
 layout: post
 title: Git的基本使用方式（针对非技术人员）
 categories: Git
-description: 配合码云在线项目管理使用Git的一些基本操作
+description: 配合码云在线项目管理使用Git的一些基本操作 第一卷
 keywords: Git, 码云, TortoiseGit, TGit
 ---
 
