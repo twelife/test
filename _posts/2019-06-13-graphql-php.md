@@ -10,7 +10,7 @@ keywords: GraphQL, php, api
 
 ## 关于GraphQL
 
-GraphQL一种用于 API 的查询语言，详情请查阅 [GraphQL中文官网](https://graphql.cn/) 。
+GraphQL一种用于 API 的查询语言，详情请查阅GraphQL官网 [中文](https://graphql.cn/)/[English](https://graphql.org/) 。
 
 ## 准备工作
 
