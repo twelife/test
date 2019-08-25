@@ -88,14 +88,14 @@ vim config.json
 主要修改各项中 `访问路径前缀` 以及 `上传保存路径`
 
 ```json
- {
+{
     ...
    
- 		"imageUrlPrefix": "http://go-file.oss-cn-shenzhen.aliyuncs.com/", /* 图片访问路径前缀，改地址可以在阿里云oss仓库获取 */
- 		"imagePathFormat": "/uploads/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
+	"imageUrlPrefix": "http://go-file.oss-cn-shenzhen.aliyuncs.com/", /* 图片访问路径前缀，改地址可以在阿里云oss仓库获取 */
+	"imagePathFormat": "/uploads/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
    
-   ...
- }
+    ...
+}
 ```
 
 ### 3.3 引用配置文件及自动加载
